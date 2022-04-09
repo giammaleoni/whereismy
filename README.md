@@ -3,6 +3,8 @@
 ## Example
 https://whereismy.pages.dev/?tag_id=100&tag_name=John%20Doe&tag_phone=0510000
 
+![[QR Code](https://bit.ly/3NWNqij)](res/qrcode.png)
+
 ### Funzionamento parametri
 | Nome Parametro | Funzionamento                                                    |
 |----------------|------------------------------------------------------------------|
@@ -14,6 +16,8 @@ https://whereismy.pages.dev/?tag_id=100&tag_name=John%20Doe&tag_phone=0510000
 - HTML semplice con **Bootstrap**
 - Codice pubblicato su **Github** con deploy diretto su **Cloudflare pages**
 - Il click sul bottone triggera una chiamata su **Pipedream** che a sua volta invia una mail
+
+![Workflow Pipedream](res/pipedream_wf.png)
 
 ## TO-DOs
 - Rendere dinamico l'indirizzo di invio della mail (o sostituire con altro servizio di messaggistica - forse Telegram)
