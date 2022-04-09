@@ -11,7 +11,7 @@ https://whereismy.pages.dev/?tag_id=100&tag_name=John%20Doe&tag_phone=0510000
 | tag_phone      | telefono dell'owner, usato nella pagina web                      |
 
 ## Stack
-- HTML semplice con **Boostrap**
+- HTML semplice con **Bootstrap**
 - Codice pubblicato su **Github** con deploy diretto su **Cloudflare pages**
 - Il click sul bottone triggera una chiamata su **Pipedream** che a sua volta invia una mail
 
