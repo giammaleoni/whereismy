@@ -2,10 +2,10 @@ body {
   font-family: system-ui;
   background: linear-gradient(#9198e5,#e66465);
   color: white;
-  height: 100vh;
+ /* height: 100vh;
   margin: 0;
   display: grid;
-  place-items: center;
+  place-items: center;*/
 }
 
 #demo {
