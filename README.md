@@ -15,10 +15,15 @@ https://whereismy.pages.dev/?tag_id=100&tag_name=John%20Doe&tag_phone=0510000
 ## Stack
 - HTML semplice con **Bootstrap**
 - Codice pubblicato su **Github** con deploy diretto su **Cloudflare pages**
-- Il click sul bottone triggera una chiamata su **Pipedream** che a sua volta invia una mail
+- Il click sul bottone triggera:
+  - una chiamata su **Pipedream** che logga su Google Sheet
+  - l'apertura di un messaggio preconfigurato su **Whatsapp** per l'invio della posizione tramite google maps
 
 ![Workflow Pipedream](res/pipedream_wf.png)
 
 ## TO-DOs
-- Rendere dinamico l'indirizzo di invio della mail (o sostituire con altro servizio di messaggistica - forse Telegram)
-- Tracking delle scansioni
+- Test su Android
+- Gestire assenza di permesso per ottenre la location
+- Verificare se possibile inviare posizione da whatsapp anzichè il link di google maps
+- Toast notification on location sent
+

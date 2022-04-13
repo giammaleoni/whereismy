@@ -5,7 +5,17 @@ body {
   height: 100vh;
   margin: 0;
   display: grid;
-  place-items: center;
+  /*place-items: center;*/
+  font-size: calc(100% + 1vw + 1vh);
+}
+
+h1 {
+  font-size: calc(100% + 1vw + 1vh);
+}
+
+.btn-group-lg>.btn, .btn-lg {
+  font-size: calc(70% + 1vw + 1vh);
+  border-radius: 0.6rem;
 }
 
 #demo {
