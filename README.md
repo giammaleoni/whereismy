@@ -26,4 +26,5 @@ https://whereismy.pages.dev/?tag_id=100&tag_name=John%20Doe&tag_phone=0510000
 - Gestire assenza di permesso per ottenre la location
 - Verificare se possibile inviare posizione da whatsapp anzichè il link di google maps
 - Toast notification on location sent
+- Verificare problema Whatsapp su Safari (probabilmente legato a blocco popup)
 

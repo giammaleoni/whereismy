@@ -45,6 +45,7 @@ function showPosition(position) {
 
   fetch("https://eozpmqi4hp2hqp.m.pipedream.net", options)
 
-  window.open(`https://wa.me/39${tag_phone}?text=${tag_name}%20si%20trova%20qui%3A%20http%3A%2F%2Fwww.google.com%2Fmaps%2Fplace%2F${position.coords.latitude}%2C${position.coords.longitude}`);
+  window.open(`https://wa.me/39${tag_phone}?text=${tag_name}%20si%20trova%20qui%3A%20http%3A%2F%2Fwww.google.com%2Fmaps%2Fplace%2F${position.coords.latitude}%2C${position.coords.longitude}`,"_self");
+  
 
 }
